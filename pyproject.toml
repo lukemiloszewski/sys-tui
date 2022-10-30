@@ -19,6 +19,8 @@ Changelog = "https://github.com/lukemiloszewski/sys-tui/releases"
 [tool.poetry.dependencies]
 typer = "^0.6.1"
 python = ">=3.8.0,<3.11.0"
+textual = {extras = ["dev"], version = "^0.2.1"}
+psutil = "^5.9.3"
 
 [tool.poetry.group.dev.dependencies]
 bandit = {extras = ["toml"], version = "^1.7.4"}
