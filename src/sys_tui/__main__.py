@@ -1,13 +1,4 @@
-import typer
+from sys_tui.main import app
 
 
-app = typer.Typer()
-
-
-@app.command()
-def main() -> None:
-    """sys_tui."""
-
-
-if __name__ == "__main__":
-    app(prog_name="sys-tui")  # pragma: no cover
+app(prog_name="sys_tui")

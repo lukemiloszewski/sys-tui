@@ -17,10 +17,11 @@ classifiers = [
 Changelog = "https://github.com/lukemiloszewski/sys-tui/releases"
 
 [tool.poetry.dependencies]
-typer = "^0.6.1"
 python = ">=3.8.0,<3.11.0"
-textual = {extras = ["dev"], version = "^0.2.1"}
 psutil = "^5.9.3"
+typer = "^0.6.1"
+textual = {extras = ["dev"], version = "^0.2.1"}
+rich = "^12.6.0"
 
 [tool.poetry.group.dev.dependencies]
 bandit = {extras = ["toml"], version = "^1.7.4"}
@@ -40,7 +41,7 @@ safety = "^2.3.1"
 typeguard = "^2.13.3"
 
 [tool.poetry.scripts]
-sys-tui = "sys_tui.__main__:app"
+sys_tui = "sys_tui.main:app"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
