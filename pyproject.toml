@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "sys-tui"
 version = "0.1.0"
-description = "A Terminal User Interface to Monitor System Utilities."
+description = "A textual app to monitor system utilities."
 authors = ["Luke Miloszewski <lukemiloszewski@gmail.com>"]
 license = "MIT"
 readme = "README.md"

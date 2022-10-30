@@ -6,7 +6,7 @@ from sys_tui.widgets.cpu_widget import CPUWidget
 
 
 class SystemApp(App):
-    """A Textual app to monitor system utilities."""
+    """A textual app to monitor system utilities."""
 
     BINDINGS = [
         ("d", "toggle_dark", "Toggle dark mode"),
